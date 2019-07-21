@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LandLord should render correctly 1`] = `
+<div
+  className="App"
+>
+  <nav
+    className="navbar navbar-expand-lg navbar-dark text-light bg-primary"
+  >
+    <h3>
+      Ajar Online
+    </h3>
+  </nav>
+  <div
+    className="d-flex justify-content-center"
+  >
+    <div
+      className="d-flex form-box"
+    >
+      <div
+        className="form-header text-light bg-primary text-center"
+      >
+        <h5>
+          Signup as a landlord
+        </h5>
+      </div>
+      <BrowserRouter>
+        <Route
+          component={[Function]}
+          exact={true}
+          path="/"
+        />
+        <Route
+          component={[Function]}
+          exact={true}
+          path="/landlord"
+        />
+        <Route
+          component={[Function]}
+          exact={true}
+          path="/landlord/stepone"
+        />
+        <Route
+          component={[Function]}
+          exact={true}
+          path="/landlord/steptwo"
+        />
+      </BrowserRouter>
+    </div>
+  </div>
+</div>
+`;

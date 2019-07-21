@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Admin should render correctly 1`] = `
+<div
+  className="App"
+>
+  <nav
+    className="navbar navbar-expand-lg navbar-dark text-light bg-primary"
+  >
+    <h3>
+      Ajar Online
+    </h3>
+  </nav>
+  <div
+    className="d-flex justify-content-center"
+  >
+    <div
+      className="d-flex form-box"
+    >
+      <div
+        className="form-header text-light bg-primary text-center"
+      >
+        <h5>
+          Signup as an Admin
+        </h5>
+      </div>
+      <BrowserRouter>
+        <Route
+          component={[Function]}
+          exact={true}
+          path="/"
+        />
+        <Route
+          component={[Function]}
+          exact={true}
+          path="/admin"
+        />
+        <Route
+          component={[Function]}
+          exact={true}
+          path="/admin/stepone"
+        />
+        <Route
+          component={[Function]}
+          exact={true}
+          path="/admin/steptwo"
+        />
+      </BrowserRouter>
+    </div>
+  </div>
+</div>
+`;

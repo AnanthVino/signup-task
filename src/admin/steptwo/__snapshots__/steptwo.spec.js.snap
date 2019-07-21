@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Admin StepTwo should render correctly 1`] = `
+<div
+  className="container d-flex flex-column justify-content"
+>
+  <form>
+    <div
+      className="form-group"
+    >
+      <label>
+        Password
+      </label>
+      <input
+        className="form-control input-box rounded-0"
+        onChange={[Function]}
+        placeholder="Password"
+        type="password"
+      />
+    </div>
+    <div
+      className="form-group"
+    >
+      <label>
+        Mobile
+      </label>
+      <input
+        className="form-control input-box rounded-0"
+        onChange={[Function]}
+        placeholder="Mobile"
+        type="text"
+      />
+    </div>
+    <div
+      className="form-group"
+    >
+      <label>
+        Country
+      </label>
+      <select
+        className="form-control input-box rounded-0"
+        defaultValue=""
+        onChange={[Function]}
+      >
+        <option
+          disabled={true}
+          value=""
+        >
+          Select
+        </option>
+        <option
+          className="option"
+          value="Kuwait"
+        >
+          Kuwait
+        </option>
+        <option
+          className="option"
+          value="Saudi Arabia"
+        >
+          Saudi Arabia
+        </option>
+        <option
+          className="option"
+          value="United Arab Emirates"
+        >
+          United Arab Emirates
+        </option>
+      </select>
+    </div>
+  </form>
+  <div
+    className="d-flex justify-content-between"
+  >
+    <Link
+      className="btn btn-primary rounded-0"
+      to="/admin/stepone"
+    >
+      Previous Step
+    </Link>
+    <button
+      className="btn btn-success rounded-0"
+      onClick={[Function]}
+    >
+      Submit
+    </button>
+  </div>
+</div>
+`;

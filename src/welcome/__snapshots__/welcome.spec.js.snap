@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Welcome should render correctly 1`] = `
+<Fragment>
+  <nav
+    className="navbar navbar-expand-lg navbar-dark text-light bg-primary"
+  >
+    <h3>
+      Ajar Online
+    </h3>
+  </nav>
+  <div
+    className="container d-flex flex-column content"
+  >
+    <p>
+      Access Denied. You are not logged in.
+    </p>
+    <Link
+      className="btn btn-info rounded-0"
+      to="/"
+    >
+      Register
+    </Link>
+  </div>
+</Fragment>
+`;
